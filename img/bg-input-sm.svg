@@ -1,0 +1,43 @@
+<svg width="240" height="58" viewBox="0 0 240 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(8294 -528)">
+<g id="Group">
+<g id="Rectangle 2" filter="url(#filter0_f)">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-8290 532)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-8290 532)" fill="#23A2F8"/>
+</g>
+</g>
+<g id="Rectangle 2">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-8290 532)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(-8290 532)" fill="#23A2F8"/>
+</g>
+</g>
+<g id="Rectangle 2">
+<mask id="mask2_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-8290 532)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(-8290 532)" fill="#23A2F8"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" filterUnits="userSpaceOnUse" x="-8294" y="528" width="240" height="58" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur"/>
+</filter>
+<path id="path0_fill" d="M 0 0L 232 0L 232 50L 0 50L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 232 0L 233 0L 233 -1L 232 -1L 232 0ZM 232 50L 232 51L 233 51L 233 50L 232 50ZM 0 50L -1 50L -1 51L 0 51L 0 50ZM 0 1L 232 1L 232 -1L 0 -1L 0 1ZM 231 0L 231 50L 233 50L 233 0L 231 0ZM 232 49L 0 49L 0 51L 232 51L 232 49ZM 1 50L 1 0L -1 0L -1 50L 1 50Z"/>
+<path id="path2_stroke_2x" d="M 0 0L 0 -0.5L -0.5 -0.5L -0.5 0L 0 0ZM 232 0L 232.5 0L 232.5 -0.5L 232 -0.5L 232 0ZM 232 50L 232 50.5L 232.5 50.5L 232.5 50L 232 50ZM 0 50L -0.5 50L -0.5 50.5L 0 50.5L 0 50ZM -0.5 0L -0.5 12.5L 0.5 12.5L 0.5 0L -0.5 0ZM -0.5 37.5L -0.5 50L 0.5 50L 0.5 37.5L -0.5 37.5ZM 0 50.5L 58 50.5L 58 49.5L 0 49.5L 0 50.5ZM 174 50.5L 232 50.5L 232 49.5L 174 49.5L 174 50.5ZM 232.5 50L 232.5 37.5L 231.5 37.5L 231.5 50L 232.5 50ZM 232.5 12.5L 232.5 0L 231.5 0L 231.5 12.5L 232.5 12.5ZM 232 -0.5L 174 -0.5L 174 0.5L 232 0.5L 232 -0.5ZM 58 -0.5L 0 -0.5L 0 0.5L 58 0.5L 58 -0.5ZM 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 232 0L 233 0L 233 -1L 232 -1L 232 0ZM 232 50L 232 51L 233 51L 233 50L 232 50ZM 0 50L -1 50L -1 51L 0 51L 0 50ZM -1 0L -1 12.5L 1 12.5L 1 0L -1 0ZM -1 37.5L -1 50L 1 50L 1 37.5L -1 37.5ZM 0 51L 58 51L 58 49L 0 49L 0 51ZM 174 51L 232 51L 232 49L 174 49L 174 51ZM 233 50L 233 37.5L 231 37.5L 231 50L 233 50ZM 233 12.5L 233 0L 231 0L 231 12.5L 233 12.5ZM 232 -1L 174 -1L 174 1L 232 1L 232 -1ZM 58 -1L 0 -1L 0 1L 58 1L 58 -1Z"/>
+<path id="path3_stroke_2x" d="M 0 0L 0 -1.5L -1.5 -1.5L -1.5 0L 0 0ZM 232 0L 233.5 0L 233.5 -1.5L 232 -1.5L 232 0ZM 232 50L 232 51.5L 233.5 51.5L 233.5 50L 232 50ZM 0 50L -1.5 50L -1.5 51.5L 0 51.5L 0 50ZM -1.5 0.609756L -1.5 2.10976L 1.5 2.10976L 1.5 0.609756L -1.5 0.609756ZM 1.5 49.3902L 1.5 47.8902L -1.5 47.8902L -1.5 49.3902L 1.5 49.3902ZM 2.82927 51.5L 4.32927 51.5L 4.32927 48.5L 2.82927 48.5L 2.82927 51.5ZM 229.171 48.5L 227.671 48.5L 227.671 51.5L 229.171 51.5L 229.171 48.5ZM 233.5 49.3902L 233.5 47.8902L 230.5 47.8902L 230.5 49.3902L 233.5 49.3902ZM 230.5 0.609757L 230.5 2.10976L 233.5 2.10976L 233.5 0.609757L 230.5 0.609757ZM 229.171 -1.5L 227.671 -1.5L 227.671 1.5L 229.171 1.5L 229.171 -1.5ZM 2.82927 1.5L 4.32927 1.5L 4.32927 -1.5L 2.82927 -1.5L 2.82927 1.5ZM -1.5 0L -1.5 0.609756L 1.5 0.609756L 1.5 0L -1.5 0ZM -1.5 49.3902L -1.5 50L 1.5 50L 1.5 49.3902L -1.5 49.3902ZM 0 51.5L 2.82927 51.5L 2.82927 48.5L 0 48.5L 0 51.5ZM 229.171 51.5L 232 51.5L 232 48.5L 229.171 48.5L 229.171 51.5ZM 233.5 50L 233.5 49.3902L 230.5 49.3902L 230.5 50L 233.5 50ZM 233.5 0.609757L 233.5 0L 230.5 0L 230.5 0.609757L 233.5 0.609757ZM 232 -1.5L 229.171 -1.5L 229.171 1.5L 232 1.5L 232 -1.5ZM 2.82927 -1.5L 0 -1.5L 0 1.5L 2.82927 1.5L 2.82927 -1.5ZM 0 0L 0 -3L -3 -3L -3 0L 0 0ZM 232 0L 235 0L 235 -3L 232 -3L 232 0ZM 232 50L 232 53L 235 53L 235 50L 232 50ZM 0 50L -3 50L -3 53L 0 53L 0 50ZM -3 0.609756L -3 3.60976L 3 3.60976L 3 0.609756L -3 0.609756ZM 3 49.3902L 3 46.3902L -3 46.3902L -3 49.3902L 3 49.3902ZM 2.82927 53L 5.82927 53L 5.82927 47L 2.82927 47L 2.82927 53ZM 229.171 47L 226.171 47L 226.171 53L 229.171 53L 229.171 47ZM 235 49.3902L 235 46.3902L 229 46.3902L 229 49.3902L 235 49.3902ZM 229 0.609757L 229 3.60976L 235 3.60976L 235 0.609757L 229 0.609757ZM 229.171 -3L 226.171 -3L 226.171 3L 229.171 3L 229.171 -3ZM 2.82927 3L 5.82927 3L 5.82927 -3L 2.82927 -3L 2.82927 3ZM -3 0L -3 0.609756L 3 0.609756L 3 0L -3 0ZM -3 49.3902L -3 50L 3 50L 3 49.3902L -3 49.3902ZM 0 53L 2.82927 53L 2.82927 47L 0 47L 0 53ZM 229.171 53L 232 53L 232 47L 229.171 47L 229.171 53ZM 235 50L 235 49.3902L 229 49.3902L 229 50L 235 50ZM 235 0.609757L 235 0L 229 0L 229 0.609757L 235 0.609757ZM 232 -3L 229.171 -3L 229.171 3L 232 3L 232 -3ZM 2.82927 -3L 0 -3L 0 3L 2.82927 3L 2.82927 -3Z"/>
+</defs>
+</svg>
