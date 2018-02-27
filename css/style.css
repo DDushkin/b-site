@@ -53,7 +53,7 @@ label{
 .m-counter-container{
   padding: 6px 25px;
   background: rgba(33, 158, 248, 0.1);
-  margin: 0 15px;
+  margin: 5px 15px;
 }
 .text-light{font-weight: 300}
 .w3-padding-regular{padding: 30px;}
@@ -256,7 +256,11 @@ background: rgba(255, 255, 255, 0.05);
       user-select: none;
 
     }
+    .select2-container--default .select2-selection--single .select2-selection__arrow b {
 
+        margin-top: -6px;
+
+    }
 .form-check input {
   position: absolute;
   opacity: 0;
@@ -604,4 +608,14 @@ div#wave .dot:nth-child(3) {
 label.left-label {
     top: 30px;
 }
+.m-counter-wrap {
+    display: block;
+    height: 30px;
+    margin-right: 10px;
+    width: 60%;
+}
+.m-counter-container{
+  max-width: 320px;
+}
+
 }

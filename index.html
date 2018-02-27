@@ -40,25 +40,24 @@
     <form id="main-form" class="display-middle text-center col-12 ">
       <input type="hidden" name="check" value="mainform">
       <p class="m-title">Blockchain inside NeuroAdvertising Ecosystem</p>
-
       <div class="row justify-content-center">
         <div class="col-xl-8 col-lg-11 text-center">
           <div class="row justify-content-center">
-
               <div class="d-flex align-items-center m-counter-container">
                 <div class="m-counter-wrap m-counter-wrap1"> </div>
                 <p class="d-inline-block m-0">Google accounts registered</p>
               </div>
 
-
-
               <div class="d-flex align-items-center m-counter-container">
                 <div class="m-counter-wrap m-counter-wrap2"> </div>
-                <p class="d-inline-block m-0">AdWords campaign finished</p>
+                <p class="d-inline-block m-0">AdWords PPC campaigns finished</p>
               </div>
-
-            
           </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-11 text-center">
+
           <div class="row justify-content-center">
             <div class="col-12">
               <p class="subtitle">Fill up the form to become a Partner</p>
@@ -85,36 +84,31 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-5 url-wrap">
-              <input class="input-big input-url" type="text" name="url"  value=""  onchange="validate();" >
-              <label alt='Site' placeholder='url'></label>
-              <label class="left-label url" placeholder="http://..."></label>
-            </div>
-            <div class="col-md-4">
-              <input class="input-big" type="text" name="email" value="" placeholder="" onchange="validate();" required>
-              <label alt='E-mail or telegram' placeholder='mail'></label>
+
+            <div class="col-md-9 d-flex flex-wrap">
+              <div class="col-md-7 url-wrap">
+                <input class="input-big input-url" type="text" name="url"  value=""  onchange="validate();" >
+                <label alt='Site' placeholder='url'></label>
+                <label class="left-label url" placeholder="http://..."></label>
+              </div>
+              <div class="col-md-5">
+                <input class="input-big" type="text" name="email" value="" placeholder="" onchange="validate();" required>
+                <label alt='E-mail or telegram' placeholder='mail'></label>
+              </div>
+
+              <div class="col-md-7">
+                <input class="input-small" type="text" name="nOClients" value="" placeholder="" onchange="validate();" required>
+                <label alt='Number of clients' placeholder='nOc'></label>
+              </div>
+              <div class="col-md-5">
+                <select class="input-small js-basic-single" onchange="validate();" style="width: 100%" name="region" required>
+                  <option value="">Choose your region</option>
+                </select>
+              </div>
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-md-3">
-              <input class="input-small" type="text" name="nOClients" value="" placeholder="" onchange="validate();" required>
-              <label alt='Number of clients' placeholder='nOc'></label>
-            </div>
-            <div class="col-md-4">
-              <select class="input-small js-basic-single" onchange="validate();" style="width: 100%" name="region" required>
-                <option value="">Choose your region</option>
-              </select>
-            </div>
-            <div class="col-md-5 idcustomer-wrap">
-
-              <input class="input-small" type="text" name="IDcustomer" value=""  >
-              <label alt='Google AdWords ID' placeholder='url'></label>
-              <label class="left-label" placeholder="*Optional"></label>
-            </div>
-          </div>
-
-          <div class="row justify-content-center">
-            <div class="order-xl-0 order-lg-1 order-md-1 col-md-5">
+            <div class="order-xl-0 order-lg-1 order-md-1 col-xl-6 col-md-5">
               <button onclick="validate();" class="w3-btn w3-main w3-medium-btn col-lg-6  col-md-12 submit-btn">SUBMIT</button>
             </div>
 
