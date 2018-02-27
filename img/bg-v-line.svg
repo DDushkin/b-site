@@ -1,0 +1,26 @@
+<svg width="4" height="644" viewBox="0 0 4 644" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Vector 2 (Stroke)</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(8943 -49)">
+<g id="Vector 2 (Stroke)">
+<use xlink:href="#path0_fill" transform="translate(-8942.5 49.5)" fill="#23A2F8"/>
+<use xlink:href="#path1_fill" transform="translate(-8942.5 49.5)" fill="#23A2F8"/>
+<use xlink:href="#path2_fill" transform="translate(-8942.5 49.5)" fill="#23A2F8"/>
+<use xlink:href="#path3_fill" transform="translate(-8942.5 49.5)" fill="#23A2F8"/>
+<use xlink:href="#path4_fill" transform="translate(-8942.5 49.5)" fill="#23A2F8"/>
+<use xlink:href="#path5_fill" transform="translate(-8942.5 49.5)" fill="#23A2F8"/>
+<use xlink:href="#path6_fill" transform="translate(-8942.5 49.5)" fill="#23A2F8"/>
+<use xlink:href="#path7_fill" transform="translate(-8942.5 49.5)" fill="#23A2F8"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 643L 0 2L 3 0L 3 7.5L 1 9L 1 459L 3 460.5L 3 581L 1 583L 1 630.5L 2.5 631.5L 2.5 640.5L 1 641.5L 1 643L 0 643Z"/>
+<path id="path1_fill" d="M 1 383.5L 1 394.5L 2.5 393.5L 2.5 384.5L 1 383.5Z"/>
+<path id="path2_fill" d="M 1 361L 1 372L 2.5 371L 2.5 362L 1 361Z"/>
+<path id="path3_fill" d="M 1 310L 1 321L 2.5 320L 2.5 311L 1 310Z"/>
+<path id="path4_fill" d="M 1 303L 1 307L 2.5 306L 2.5 304L 1 303Z"/>
+<path id="path5_fill" d="M 1 297.5L 1 301.5L 2.5 300.5L 2.5 298.5L 1 297.5Z"/>
+<path id="path6_fill" d="M 1 292.5L 1 296.5L 2.5 295.5L 2.5 293.5L 1 292.5Z"/>
+<path id="path7_fill" d="M 1 33L 1 157L 3 155L 3 34.5L 1 33Z"/>
+</defs>
+</svg>
