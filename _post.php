@@ -13,11 +13,10 @@ if($_POST['check'] == 'mainform'){
   </head>
   <body>
   <p>Type of user: '.$_POST['agType'].'</p>
-  <p>Site / Speciality: '.$_POST['url'].'</p>
+  <p>Site (if agency): '.$_POST['url'].'</p>
   <p>Email : '.$_POST['email'].'</p>
   <p>Number of clients: '.$_POST['nOClients'].'</p>
   <p>Region: '.$_POST['region'].'</p>
-  <p>IDcustomer GAdWords (опционально) : '.$_POST['IDcustomer'].'</p>
   </body>
   </html>'; //Текст нащего сообщения можно использовать HTML теги
 
@@ -27,7 +26,7 @@ if($_POST['check'] == 'mainform'){
   mail($to, $subject, $message, $headers); //Отправка письма с помощью функции mail
 
 } else {
-  $to = 'vc@uctworld.comm'; // адрес получателя
+  $to = 'vc@uctworld.com'; // адрес получателя
   $subject = 'Question BiNero'; //Загаловок сообщения
 
   $message = '
