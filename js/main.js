@@ -92,7 +92,9 @@ function counter(){
 	$(".digit-con:nth-last-child(3n+4)").after("<span class='comma'> </a>");
 }
 
-
+$(".close-form").click(function(){
+  $('#main-form').fadeIn(); $('.alert').fadeOut();
+});
 $(document).ready(function(){
   $('.js-basic-single').select2({
     width: 'resolve'
@@ -119,7 +121,7 @@ $(document).ready(function(){
   setTimeout(function(){  $(formBtn).html('SUBMIT'); formNm.get(0).reset();}, 3500);
   if(formID == 'main-form'){
     setTimeout(function(){$('#main-form').fadeOut(); $('.alert').fadeIn();}, 2500);
-    setTimeout(function(){ $(formBtn).html('BECOME A PARTNER');  formNm.get(0).reset(); $('input').blur(); }, 3500);
+    setTimeout(function(){ $(formBtn).html('SUBMIT');  formNm.get(0).reset(); $('input').blur(); }, 3500);
   }
   },
   error: function (jqXHR, text, error) {
@@ -135,10 +137,7 @@ $(document).ready(function(){
 });
 
 
-$('.alert').on('closed.bs.alert', function () {
-  $('#main-form, .idcustomer-wrap, .url-wrap').fadeIn();
 
-})
 
 $('input').on('focus', function() {
   $(this).next('label').addClass('translate-placeholder');

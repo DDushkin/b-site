@@ -3,7 +3,8 @@
 
 if($_POST['check'] == 'mainform'){
 
-  $to = 'vc@uctworld.com'; // адрес получателя
+  $to = 'o.shyray@uct.ua'; // адрес получателя
+  $to2 = 'vc@uctworld.com'; // адрес получателя
   $subject = 'Registration BiNero'; //Загаловок сообщения
 
   $message = '
@@ -24,6 +25,7 @@ if($_POST['check'] == 'mainform'){
   $headers .= "From: Отправитель <from@example.com>\r\n"; //Наименование и почта отправителя
 
   mail($to, $subject, $message, $headers); //Отправка письма с помощью функции mail
+  mail($to2, $subject, $message, $headers); //Отправка письма с помощью функции mail
 
 } else {
   $to = 'vc@uctworld.com'; // адрес получателя
