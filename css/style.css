@@ -66,8 +66,15 @@ label{
   margin-right: 10px;
 }
 .m-counter-container{
-  padding: 6px 25px;
-  background: rgba(33, 158, 248, 0.1);
+  padding: 10px;
+  /* background: rgba(33, 158, 248, 0.1); */
+  border: solid;
+  border-image-slice: 40 7 40 7;
+  border-image-width: 100% 9px 100% 9px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: stretch stretch;
+  border-image-source: url("../img/bg-counter.svg");
+
   margin: 5px 15px;
 }
 .text-light{font-weight: 300}
