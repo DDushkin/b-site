@@ -19,7 +19,13 @@ h1, h2, h3, h4, h5, h6, p{font-family: 'Roboto', sans-serif;}
 label{
   margin:0;
 }
-
+.follow-us{
+  width: 100%;
+}
+.follow-wrap{
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .c-uct-img{height:50px }
 .c-uct-img a
 {width: 100%;
@@ -558,11 +564,15 @@ div#wave .dot:nth-child(3) {
     margin: 15px 0 20px;
   }
 }
-@media (max-width:1600px){  .main-logo{max-width: 250px; max-height:  250px; width: 35vh; height: 35vh} .subtitle {
+@media (max-width:1600px){  .main-logo{max-width: 200px; max-height:  200px; width: 35vh; height: 35vh} .subtitle {
     font-weight: 500;
     font-size: 24px;
-    padding: 15px 0 5px;
+    padding: 15px 0 0px;
     margin: 0;
+}
+.m-title {
+    margin: 0px 0 0px;
+    line-height: 56px;
 }
 }
 

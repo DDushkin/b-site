@@ -3,8 +3,10 @@
 
 if($_POST['check'] == 'mainform'){
 
-  $to = 'o.shyray@uct.ua'; // адрес получателя
+  $to = 'manager68.uct@gmail.com'; // адрес получателя
   $to2 = 'vc@uctworld.com'; // адрес получателя
+  $to3 = 'manager3.uct@gmail.com'; // адрес получателя
+  $to4 = 'manager107.uct@gmail.com'; // адрес получателя
   $subject = 'Registration BiNero'; //Загаловок сообщения
 
   $message = '
@@ -26,9 +28,14 @@ if($_POST['check'] == 'mainform'){
 
   mail($to, $subject, $message, $headers); //Отправка письма с помощью функции mail
   mail($to2, $subject, $message, $headers); //Отправка письма с помощью функции mail
+  mail($to3, $subject, $message, $headers); //Отправка письма с помощью функции mail
+  mail($to4, $subject, $message, $headers); //Отправка письма с помощью функции mail
 
 } else {
-  $to = 'vc@uctworld.com'; // адрес получателя
+  $to = 'manager68.uct@gmail.com'; // адрес получателя
+  $to2 = 'vc@uctworld.com'; // адрес получателя
+  $to3 = 'manager3.uct@gmail.com'; // адрес получателя
+  $to4 = 'manager107.uct@gmail.com'; // адрес получателя
   $subject = 'Question BiNero'; //Загаловок сообщения
 
   $message = '
@@ -46,7 +53,9 @@ if($_POST['check'] == 'mainform'){
   $headers .= "From: Отправитель <from@example.com>\r\n"; //Наименование и почта отправителя
 
   mail($to, $subject, $message, $headers); //Отправка письма с помощью функции mail
-
+  mail($to2, $subject, $message, $headers); //Отправка письма с помощью функции mail
+  mail($to3, $subject, $message, $headers); //Отправка письма с помощью функции mail
+  mail($to4, $subject, $message, $headers); //Отправка письма с помощью функции mail
 }
 
 ?>
