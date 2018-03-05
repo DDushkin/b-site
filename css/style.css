@@ -77,6 +77,7 @@ label{
 
   margin: 5px 15px;
 }
+.close-form{cursor: pointer;}
 .text-light{font-weight: 300}
 .w3-padding-regular{padding: 30px;}
 .c-partner-img{height: 76px;}
