@@ -60,12 +60,36 @@ function mainc() {
 
 }
 
+
+
+function getSecondsfromYesterday(numb) {
+  // Set the unit values in milliseconds.
+var counterValue = numb;
+var msecPerMinute = 1000 * 60;
+var msecPerHour = msecPerMinute * 60;
+var msecPerDay = msecPerHour * 24;
+
+var birthday = new Date("03/06/2018");
+var today = new Date();
+var years = today.getTime() - birthday.getTime();
+
+var days = Math.floor(years / msecPerDay );
+
+if(days & 1)  counterValue += days*24
+console.log(counterValue);
+
+return counterValue;
+}
+
+
+
+
 function counter(){
 
 	$('.m-counter-wrap').empty();
 
-	var number1 = '15732';
-  var number2 = '81026';
+	var number1 = getSecondsfromYesterday(15732).toString();
+  var number2 = getSecondsfromYesterday(81026).toString();
 	var numArray1 = number1.split("");
   var numArray2 = number2.split("");
 
