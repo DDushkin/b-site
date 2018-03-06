@@ -61,35 +61,62 @@ function mainc() {
 }
 
 
-
-function getSecondsfromYesterday(numb) {
-  // Set the unit values in milliseconds.
-var counterValue = numb;
-var msecPerMinute = 1000 * 60;
-var msecPerHour = msecPerMinute * 60;
-var msecPerDay = msecPerHour * 24;
-
-var birthday = new Date("03/06/2018");
-var today = new Date();
-var years = today.getTime() - birthday.getTime();
-
-var days = Math.floor(years / msecPerDay );
-
-if(days & 1)  counterValue += days*24
-console.log(counterValue);
-
-return counterValue;
+function pseudo_random( _date, min, max ){
+  current_date = _date.toISOString().slice(0, 10);
+  var constant = md5( String(current_date));
+  var b1 = min + ( parseInt(constant, 16) % ((max + 1) - min))
+  return b1;
 }
 
 
+
+function getValue1(numb) {
+    // Set the unit values in milliseconds.
+  var counterValue = numb;
+  var msecPerMinute = 1000 * 60;
+  var msecPerHour = msecPerMinute * 60;
+  var msecPerDay = msecPerHour * 24;
+
+  var birthday = new Date("03/06/2018");
+  var today = new Date();
+  var years = today.getTime() - birthday.getTime();
+
+  var days = Math.floor(years / msecPerDay );
+
+  var temp = pseudo_random( new Date(), 0, 6);
+  counterValue += days*(6 + temp);
+
+  console.log(counterValue + ' , ' + temp );
+  return counterValue;
+}
+
+function getValue2(numb) {
+    // Set the unit values in milliseconds.
+  var counterValue = numb;
+  var msecPerMinute = 1000 * 60;
+  var msecPerHour = msecPerMinute * 60;
+  var msecPerDay = msecPerHour * 24;
+
+  var birthday = new Date("03/06/2018");
+  var today = new Date();
+  var years = today.getTime() - birthday.getTime();
+
+  var days = Math.floor(years / msecPerDay );
+
+  var temp = pseudo_random( new Date(), 0, 24);
+  counterValue += days*(24 + temp);
+
+  console.log(counterValue + ' , ' + temp );
+  return counterValue;
+}
 
 
 function counter(){
 
 	$('.m-counter-wrap').empty();
 
-	var number1 = getSecondsfromYesterday(15732).toString();
-  var number2 = getSecondsfromYesterday(81026).toString();
+	var number1 = getValue1(15732).toString();
+  var number2 = getValue2(81026).toString();
 	var numArray1 = number1.split("");
   var numArray2 = number2.split("");
 
