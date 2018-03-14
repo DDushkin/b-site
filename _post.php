@@ -3,11 +3,14 @@
 
 if($_POST['check'] == 'mainform'){
 
-  $to = 'manager68.uct@gmail.com'; // адрес получателя
-  $to2 = 'vc@uctworld.com'; // адрес получателя
-  $to3 = 'manager3.uct@gmail.com'; // адрес получателя
-  $to4 = 'manager107.uct@gmail.com'; // адрес получателя
-  $subject = 'Registration BiNero'; //Загаловок сообщения
+  $to = 'k.feshchuk@uct.ua'; // адрес получателя
+  $to2 = 'a.stetsenko@uct.ua'; // адрес получателя
+  $to3 = 'pavlov@uct.ua'; // адрес получателя
+  $to4 = 'o.shyray@uct.ua'; // адрес получателя
+  $to5 = 'manager68.uct@gmail.com'; // адрес получателя
+  $to6 = 'bineuro@uctworld.com'; // адрес получателя
+  $subject = 'Регистрация BiNero'; //Загаловок сообщения
+
 
   $message = '
   <html>
@@ -24,19 +27,23 @@ if($_POST['check'] == 'mainform'){
   </html>'; //Текст нащего сообщения можно использовать HTML теги
 
   $headers  = "Content-type: text/html; charset=utf-8 \r\n"; //Кодировка письма
-  $headers .= "From: Отправитель <from@example.com>\r\n"; //Наименование и почта отправителя
+  $headers .= "From: Отправитель <bineuro@uctworld.com>\r\n"; //Наименование и почта отправителя
 
   mail($to, $subject, $message, $headers); //Отправка письма с помощью функции mail
   mail($to2, $subject, $message, $headers); //Отправка письма с помощью функции mail
   mail($to3, $subject, $message, $headers); //Отправка письма с помощью функции mail
   mail($to4, $subject, $message, $headers); //Отправка письма с помощью функции mail
+  mail($to5, $subject, $message, $headers); //Отправка письма с помощью функции mail
+  mail($to6, $subject, $message, $headers); //Отправка письма с помощью функции mail
 
 } else {
-  $to = 'manager68.uct@gmail.com'; // адрес получателя
-  $to2 = 'vc@uctworld.com'; // адрес получателя
-  $to3 = 'manager3.uct@gmail.com'; // адрес получателя
-  $to4 = 'manager107.uct@gmail.com'; // адрес получателя
-  $subject = 'Question BiNero'; //Загаловок сообщения
+  $to = 'k.feshchuk@uct.ua'; // адрес получателя
+  $to2 = 'a.stetsenko@uct.ua'; // адрес получателя
+  $to3 = 'pavlov@uct.ua'; // адрес получателя
+  $to4 = 'o.shyray@uct.ua'; // адрес получателя
+  $to5 = 'manager68.uct@gmail.com'; // адрес получателя
+  $to6 = 'bineuro@uctworld.com'; // адрес получателя
+  $subject = 'Вопросы BiNero'; //Загаловок сообщения
 
   $message = '
   <html>
@@ -50,12 +57,14 @@ if($_POST['check'] == 'mainform'){
   </html>'; //Текст нащего сообщения можно использовать HTML теги
 
   $headers  = "Content-type: text/html; charset=utf-8 \r\n"; //Кодировка письма
-  $headers .= "From: Отправитель <from@example.com>\r\n"; //Наименование и почта отправителя
+  $headers .= "From: Отправитель <bineuro@uctworld.com>\r\n"; //Наименование и почта отправителя
 
   mail($to, $subject, $message, $headers); //Отправка письма с помощью функции mail
   mail($to2, $subject, $message, $headers); //Отправка письма с помощью функции mail
   mail($to3, $subject, $message, $headers); //Отправка письма с помощью функции mail
   mail($to4, $subject, $message, $headers); //Отправка письма с помощью функции mail
+  mail($to5, $subject, $message, $headers); //Отправка письма с помощью функции mail
+  mail($to6, $subject, $message, $headers); //Отправка письма с помощью функции mail
 }
 
 ?>

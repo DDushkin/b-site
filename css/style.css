@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500');
 
-h1, h2, h3, h4, h5, h6, p{font-family: 'Roboto', sans-serif;}
+h1, h2, h3, h4, h5, h6, p{font-family: 'Montserrat', sans-serif;}
 .m-title{line-height: 65px;     font-size: 4.8vh; font-weight: 100; margin: 80px 0 20px;}
 .m-title-blue{
   line-height: 65px;     font-size: 5.6vh; font-weight: 100; color:#23A2F8;     display: inline-block;
@@ -424,7 +424,7 @@ textarea:-ms-input-placeholder      {color: white; font-weight: 300;}
   max-width: 300px;
   background-color: white;
   color: black;
-  font-family: 'Roboto';
+  font-family: 'Montserrat';
 font-style: normal;
 font-weight: normal;
 line-height: 21px;

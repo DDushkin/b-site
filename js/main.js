@@ -83,7 +83,7 @@ function getValue1(numb) {
 
   var days = Math.floor(years / msecPerDay );
 
-  var temp = pseudo_random( new Date(), 0, 6);
+  var temp = pseudo_random( new Date(), 0, 12);
   counterValue += days*(6 + temp);
 
   console.log(counterValue + ' , ' + temp );
@@ -103,7 +103,7 @@ function getValue2(numb) {
 
   var days = Math.floor(years / msecPerDay );
 
-  var temp = pseudo_random( new Date(), 0, 24);
+  var temp = pseudo_random( new Date(), 0, 48);
   counterValue += days*(24 + temp);
 
   console.log(counterValue + ' , ' + temp );
@@ -111,31 +111,39 @@ function getValue2(numb) {
 }
 
 
-function counter(){
+function counter1(numb){
 
-	$('.m-counter-wrap').empty();
+  $('.m-counter-wrap1').empty();
 
-	var number1 = getValue1(15732).toString();
-  var number2 = getValue2(81026).toString();
-	var numArray1 = number1.split("");
+  var number1 = (getValue1(15732) - numb).toString();
+  var numArray1 = number1.split("");
+  for(var i=0; i<numArray1.length; i++) {
+    numArray1[i] = parseInt(numArray1[i], 10);
+    $(".m-counter-wrap1").append('<span class="digit-con"><span class="digit'+i+'">0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br></span></span>');
+  }
+
+  var increment1 = $('.m-counter-wrap1 .digit-con').outerHeight();
+	var speed = 2500;
+  for(var i=0; i<numArray1.length; i++) {
+    $('.m-counter-wrap1 .digit'+i).animate({top: -(increment1 * numArray1[i])}, speed);
+  }
+
+	$(".digit-con:nth-last-child(3n+4)").after("<span class='comma'> </a>");
+}
+
+function counter2(numb){
+
+	$('.m-counter-wrap2').empty();
+
+  var number2 = (getValue2(81026) - numb).toString();
   var numArray2 = number2.split("");
-
-	for(var i=0; i<numArray1.length; i++) {
-		numArray1[i] = parseInt(numArray1[i], 10);
-		$(".m-counter-wrap1").append('<span class="digit-con"><span class="digit'+i+'">0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br></span></span>');
-	}
   for(var i=0; i<numArray2.length; i++) {
     numArray2[i] = parseInt(numArray2[i], 10);
     $(".m-counter-wrap2").append('<span class="digit-con"><span class="digit'+i+'">0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br></span></span>');
   }
 
-	var increment1 = $('.m-counter-wrap1 .digit-con').outerHeight();
   var increment2 = $('.m-counter-wrap2 .digit-con').outerHeight();
-	var speed = 1000;
-
-	for(var i=0; i<numArray1.length; i++) {
-		$('.m-counter-wrap1 .digit'+i).animate({top: -(increment1 * numArray1[i])}, speed);
-	}
+	var speed = 2500;
   for(var i=0; i<numArray2.length; i++) {
     $('.m-counter-wrap2 .digit'+i).animate({top: -(increment2 * numArray2[i])}, speed);
   }
@@ -143,9 +151,12 @@ function counter(){
 	$(".digit-con:nth-last-child(3n+4)").after("<span class='comma'> </a>");
 }
 
+
 $(".close-form").click(function(){
   $('#main-form').fadeIn(); $('.alert').fadeOut();
 });
+
+
 $(document).ready(function(){
   $('.js-basic-single').select2({
     width: 'resolve'
@@ -153,7 +164,24 @@ $(document).ready(function(){
   $('.main-logo').get(0).play();
 
   mainc();
-  counter();
+
+  var first = 7;
+  var second = 25;
+
+  function run1() {
+    counter1(first); first--; console.log(first); if(first < 0){}
+    else {setTimeout(run1, 5000);}
+  }
+
+  function run2() {
+    counter2(second); second--; console.log(second); if(second < 0){}
+    else{setTimeout(run2, 5000);}
+
+  }
+
+  run1();
+  run2();
+
 
   $("form").submit(function () {
   var formID = $(this).attr('id');
@@ -186,8 +214,6 @@ $(document).ready(function(){
   });
 
 });
-
-
 
 
 $('input').on('focus', function() {
